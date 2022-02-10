@@ -36,9 +36,7 @@ These entities represent a test-specific subset of the wider AbRV_Ex exchange an
   - *IfcAlignmentHorizontal*
   - *IfcAlignmentVertical*
   - *IfcAlignmentCant*
-  - *IfcRail*
-  - *IfcCourse*
-  - *IfcTransportElement*?
+  - *IfcBuiltElement*
   
 - *Curves*
   - *IfcGradientCurve*
