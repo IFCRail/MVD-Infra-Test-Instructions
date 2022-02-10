@@ -28,7 +28,7 @@ The Test instruction addresses the import and export of the following IFC Entiti
 
 These entities represent a test-specific subset of the wider AbRV_Ex exchange and the overall AbRV MVD. **The scope of the test shall not be used as a definitive scope of the exchange, or of the entire MVD.**
 
-- *Optional Grouping*
+- *Rooted Entities*
   - *IfcProject*
   - *IfcSite*
   - *IfcAlignment*
@@ -39,6 +39,12 @@ These entities represent a test-specific subset of the wider AbRV_Ex exchange an
   - *IfcRail*
   - *IfcCourse*
   - *IfcTransportElement*?
+  
+- *Curves*
+  - *IfcGradientCurve*
+  - *IfcSegmentedReferenceCurve*
+  - *IfcOffsetCurveByDistances*
+  - *IfcIndexedPolycurve*
 
 </details>
 
