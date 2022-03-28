@@ -78,22 +78,68 @@ Test instructions are defined with a modular approach to reduce repetition of va
 ## Usages, Constraints & Logic
 The following itemised restrictions and constraints shall be placed on IFC Entities & Concept Templates:
 
-:construction: under construction :construction:
-
 <details><summary>Semantic Usages, Constraints & Logic</summary>
 
-The following itemised Usages, Constraints & Logic are normative entries within the AbRV MVD and MUST be satisfied to meet the defined validation criteria
-
-- IfcSomething
-    - *Constraint*
 
 </details>
 
 <details><summary>Model Geometry</summary>
 The Test case requires the following additional checks related to Model Geometry:
 
-- *Constraint*
+The geometry should contain three individual sweeps, i.e.:
+- Right Rail
+- Left Rail
+- Base
 
+Right Rail
+The right rail should be modelled using a sweep directly on the IfcSegmentedReferencCurve. The structure should look like:
+- IfcDirectrixDerivedReferenceSweptAreaSolid
+  - Directrix
+    - IfcSegmentedReferenceCurve
+  - SweptArea
+    - IfcDerivedProfileDef
+      - ParentProfile
+        - IfcArbitraryClosedProfileDef
+      - Operator
+        - IfcCartesianTransformationOperator2D => translation + rotation
+  - FixedReference
+    - IfcDirection (0., 0., 1.)
+
+Left Rail
+The left rail should be modelled using a sweep based on an offset curve. The structure should look like:
+- IfcDirectrixDerivedReferenceSweptAreaSolid
+  - Directrix
+    - IfcOffsetCurveByDistances
+      - BasisCurve
+        - IfcSegmentedReferenceCurve
+      - OffsetValues
+        - IfcPointByDistanceExpression => translation
+  - SweptArea
+    - IfcDerivedProfileDef
+      - ParentProfile
+        - IfcArbitraryClosedProfileDef
+      - Operator
+        - IfcCartesianTransformationOperator2D => rotation
+  - FixedReference
+    - IfcDirection (0., 0., 1.)
+ 
+Base
+  
+  IfcDirectrixDerivedReferenceSweptAreaSolid
+Directrix => 
+IfcOffsetCurveByDistances
+One offsetvalue
+IfcSegmentedReferenceCurve
+
+
+- IfcProject
+  - IfcSite
+    - IfcRailway
+      - IfcFacilityPart.TRACKSTRUCTURE
+  
+  
+Base
+  
 </details>
 
 ## Expected Results
