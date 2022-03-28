@@ -67,8 +67,6 @@ These concept templates represent a test-specific subset of the wider AbRV_Ex ex
 ## Test Case Imports
 Test instructions are defined with a modular approach to reduce repetition of validation criteria and test content, and improve vendors ability to solve issues and bugs. therefore this test instruction *imports/reuses* the following Test instructions and entities with the relevant associated validation criteria.
 
-:construction: under construction :construction:
-
 <details><summary>Imports & Reuses</summary>
 
 | TI Code                                  | Test Instruction Title    | Comments                     |
@@ -101,8 +99,6 @@ The Test case requires the following additional checks related to Model Geometry
 ## Expected Results
 
 For certification of capabilities the only source will be:
-
-:construction: under construction :construction:
 
 - n. 1 IFC file containing the information as requested. The file shall be named using the following syntax: `MVDCode`-`ExchangeCode`-`TestCode`-`SoftwareVendor`.`ifc` (Example: `IFC4.3_AbRV-E2b-ASTPC-AmazingSoft.ifc`)
 
@@ -138,13 +134,18 @@ Considering the aim of this test, other **optional** results, not subject to the
 
 </details>
 
-### Some Concept Group
+### Product geometric representation
 
-<details><summary>Click to expand</summary>
-Criteria around the representation of 'Some Concept'
+| **RULE ID** | **CRITERIA**                            | **VALUE [examples]**                     | **ENTITY (if applicable)** | **CT (if applicable)**     |
+|-------------|-----------------------------------------|------------------------------------------|----------------------------|----------------------------|
+| PREP_01     | Geometric representation of products is verified | As per Product Geometric Representation Table |                   | Product Geometric Representation and its subtemplates |
 
-| **ID**  | **CRITERIA**                                        | **VALUE**                                | **COMMENT** |
-|---------|-----------------------------------------------------|------------------------------------------|-------------|
-| XXXX_01 | A Criteria to follow                               | its expected value or outcome            |             |
+> **Acceptance criteria**: For the **Group Geometric Representation** capability, the validation procedure must verify that a Product of the requested type (and optionally a requested name) has an IfcShapeRepresentation with the requested Representation Identifier, Representation Type and Items.
+
+<details><summary>PREP_01 details:  Geometric representation of products is verified</summary>
+
+> - Given a set of products taken from the [Product Geometric Representation Table](#Product-Geometric-Representation-Table)
+> - Then the Product, and optionally the Product Type, exists
+> - And the Product must have an IfcShapeRepresentation (via IfcProductDefinitionShape) with the requested Representation Identifier, Representation Type and Items.
 
 </details>
