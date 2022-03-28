@@ -7,11 +7,13 @@
 
 ## Summary (Intent)
 
-*Include a short description of the test case. This description should include a summary of the capabilities and data representations being tested by the defined data set.*
+This test instruction is defined for IFC4.3AbRV_E2a_TSAS Track Structures Advanced Sweeps.
 
-*Optional: if your data comes from a specific Storylines or unit tests of the IFC Infrastructure Deployment Project or IFC Rail Project, please include a link to the originating documentation here. so additional background information can be created or referenced by the implementing vendor.*
-
-This test case is defined for 
+It covers following subjects:
+- A basic project structure setup including units, context and global positioning
+- One alignment for a section of railway, including the horizontal, vertical and cant layouts
+- One rail as a sweep of the IfcSegmentedReferenceCurve (representing the cant layout) and one rail as a sweep of an IfcOffsetCurveByDistances based on the same IfcSegmentedReferenceCurve.
+- Swept area solid geometry of the base represented by IfcSectionedSolidHorizontal
 
 The [Expected Results](#Expected-Results) section lists the material that will be used to assess the fulfilment of capabilities.
 
