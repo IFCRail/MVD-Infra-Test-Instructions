@@ -2,7 +2,7 @@
 
 | Documentation Code   | Title                                          | Exchange Code | Test Code | Author          | Data Owner | Version | Date       |
 |----------------------|------------------------------------------------|---------------|-----------| ----------------|------------|---------|------------|
-| IFC4.3AbRV_E2a_TSAS  | Track Structures Advanced Sweeps               | E2a-TRST      | TSAS      |                 |            | 1.0     | DD.MM.YYYY |
+| IFC4.3AbRV_E2a_TSAS  | Track Structures Advanced Sweeps               | E2a-TRST      | TSAS      |                 |            | 1.0     | 28.03.2022 |
 
 
 ## Summary (Intent)
