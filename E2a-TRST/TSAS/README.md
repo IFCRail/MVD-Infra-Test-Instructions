@@ -20,7 +20,6 @@ The [Expected Results](#Expected-Results) section lists the material that will b
 :zap: **This is a test-driven process: refer to the [Validation Criteria](#Validation-Criteria) to understand what is required by the test** :zap:
 
 ## Itemised Roots
-*This section lists the primary entities and concept templates being validated by this test instruction, these are listed to understand the scope of the data entities being addressed. this is the documentation of the data placed within BIMQ*
 
 The Test instruction addresses the import and export of the following IFC Entities & Concept Templates:
 
@@ -44,7 +43,6 @@ These entities represent a test-specific subset of the wider AbRV_Ex exchange an
   - *IfcGradientCurve*
   - *IfcSegmentedReferenceCurve*
   - *IfcOffsetCurveByDistances*
-  - *IfcIndexedPolycurve*
 
 </details>
 
@@ -65,8 +63,7 @@ These concept templates represent a test-specific subset of the wider AbRV_Ex ex
   - *Axis Geometry*
   - *Body AdvancedSwept Directrix Geometry*
   - *Body SectionedSolidHorizontal*
-  - *Material Profile Set Usage*?
-
+ 
 </details>
 
 ## Test Case Imports
