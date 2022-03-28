@@ -143,7 +143,7 @@ The base should be defined by a sectioned solid sweep. The structure should look
 
 For certification of capabilities the only source will be:
 
-- n. 1 IFC file containing the information as requested. The file shall be named using the following syntax: `MVDCode`-`ExchangeCode`-`TestCode`-`SoftwareVendor`.`ifc` (Example: `IFC4.3_AbRV-E2b-ASTPC-AmazingSoft.ifc`)
+- n. 1 IFC file containing the information as requested. The file shall be named using the following syntax: `MVDCode`-`ExchangeCode`-`TestCode`-`SoftwareVendor`.`ifc` (Example: `IFC4.3_AbRV_E2a_TSAS-AmazingSoft.ifc`)
 
 Considering the aim of this test, other **optional** results, not subject to the bSI certification process, yet useful to illustrate test results are:
 - Screen-shot of ...
