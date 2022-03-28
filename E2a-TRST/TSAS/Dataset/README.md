@@ -55,14 +55,11 @@ Horizontal Alignment
 Vertical Alignment
 ![](./verticalalignment.png)
 
-![**Cant Alignment**](./cantalignment.png)
+Cant Alignment
+![](./cantalignment.png)
 
 
 ## Supporting files
-
-| Filename                          | Description                               |
-|-----------------------------------|-------------------------------------------|
-| *filename*                        | *short description*                       |
 
 | Filename                 | Description                                         |
 |--------------------------|-----------------------------------------------------|
