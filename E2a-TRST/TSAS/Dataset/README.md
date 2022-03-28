@@ -49,15 +49,12 @@ Cant Alignment
 ## Drawings (Visualisations)
 The following Drawings and visualisations describe the test case dataset to be modelled and certified.
 
-Horizontal Alignment
 ![alt text](./horizontalalignment.png)
 *Fig. 1 Table of segments for Horizontal Alignment
 
-Vertical Alignment
 ![alt text](./verticalalignment.png)
 *Fig. 2 Table of segments for Vertical Alignment
 
-Cant Alignment
 ![alt text](./cantalignment.png)
 *Fig. 3 Table of segments for Cant Alignment
 
