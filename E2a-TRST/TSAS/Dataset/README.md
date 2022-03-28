@@ -49,10 +49,14 @@ Cant Alignment
 ## Drawings (Visualisations)
 The following Drawings and visualisations describe the test case dataset to be modelled and certified.
 
+Horizontal Alignment
 ![](./horizontalalignment.png)
 
-TEST
-![](./horizontalalignment.png)
+Vertical Alignment
+![](./verticalalignment.png)
+
+![**Cant Alignment**](./cantalignment.png)
+
 
 ## Supporting files
 
