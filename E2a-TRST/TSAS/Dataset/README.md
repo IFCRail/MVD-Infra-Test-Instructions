@@ -59,5 +59,5 @@ The following Drawings and visualisations describe the test case dataset to be m
 | Filename                 | Description                                         |
 |--------------------------|-----------------------------------------------------|
 | [**Horizontal Alignment Segments**](./HorizontalSegments.csv) | Definition for the segments in Horizontal Alignment |
-| ./VerticalSegments.csv   | Definition for the segments in Vertical Alignment   |
-| ./CantSegments.csv       | Definition for the segments in Cant Alignment       |
+| [**Vertical Alignment Segments**](./VerticalSegments.csv)   | Definition for the segments in Vertical Alignment   |
+| [**Cant Alignment Segments**](./CantSegments.csv)       | Definition for the segments in Cant Alignment       |
