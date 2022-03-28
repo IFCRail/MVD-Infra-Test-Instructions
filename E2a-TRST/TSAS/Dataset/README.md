@@ -50,14 +50,24 @@ Cant Alignment
 The following Drawings and visualisations describe the test case dataset to be modelled and certified.
 
 Horizontal Alignment
-![](./horizontalalignment.png)
+![alt text](./horizontalalignment.png)
+*Fig. 1 Table of segments for Horizontal Alignment
 
 Vertical Alignment
-![](./verticalalignment.png)
+![alt text](./verticalalignment.png)
+*Fig. 2 Table of segments for Vertical Alignment
 
 Cant Alignment
-![](./cantalignment.png)
+![alt text](./cantalignment.png)
+*Fig. 3 Table of segments for Cant Alignment
 
+The profile of rail (IfcRail.RAIL) should use the following drawing as reference.
+![alt text](RailProfile60UIC.jpg)
+*Fig. 4 Rail profile*
+
+The sleeper and its simplified version
+![alt text](Sleeper.png)
+*Fig. 5 Sleeper and its relation to rails and the simplified version*
 
 ## Supporting files
 
