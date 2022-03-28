@@ -124,21 +124,18 @@ The left rail should be modelled using a sweep based on an offset curve. The str
     - IfcDirection (0., 0., 1.)
  
 Base
-  
-  IfcDirectrixDerivedReferenceSweptAreaSolid
-Directrix => 
-IfcOffsetCurveByDistances
-One offsetvalue
-IfcSegmentedReferenceCurve
-
-
-- IfcProject
-  - IfcSite
-    - IfcRailway
-      - IfcFacilityPart.TRACKSTRUCTURE
-  
-  
-Base
+The base should be defined by a sectioned solid sweep. The structure should look like:
+- IfcSectionedSolidHorizontal
+  - Directrix
+    - IfcSegmentedReferenceCurve
+  - CrossSections
+    - IfcDerivedProfileDef
+      - ParentProfile
+        - IfcArbitraryClosedProfileDef (the profile as defined in figure 5)
+      - Operator
+        - IfcCartesianTransformationOperator2D => rotation based on segment
+  - CrossSectionPositions
+    - IfcAxis2PlacementLinear (at the start of each Cant Alignment Segment and at the end of the IfcSegmentedReferenceCurve)
   
 </details>
 
@@ -156,8 +153,6 @@ Considering the aim of this test, other **optional** results, not subject to the
 
 ## Validation criteria
 :zap: For this test case to be considered passed **all capabilities** listed in this section shall be verified, with no exception. :zap:
-
-:construction: under construction :construction:
 
 ### General & Imports
 
